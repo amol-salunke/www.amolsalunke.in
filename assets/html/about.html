@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+
+  <style>
+    /* Scope all styles under #about-page */
+    #about-page {
+      font-family: Arial, sans-serif;
+      background: #e5e5e5;
+      color: #222;
+    }
+
+    #about-page .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    #about-page h1 {
+      font-size: 40px;
+      font-weight: 900;
+      text-align: center;
+      color: #6a0dad;
+      letter-spacing: 2px;
+    }
+
+    #about-page .underline {
+      width: 60px;
+      height: 4px;
+      background: #6a0dad;
+      margin: 10px auto 30px;
+      border-radius: 4px;
+    }
+
+    #about-page .two-col {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    /* LEFT SIDE */
+    #about-page .about-card {
+      flex: 2;
+      min-width: 300px;
+      background: #faf5ff;
+      padding: 20px;
+      border-left: 5px solid #6a0dad;
+      border-radius: 8px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    #about-page .about-card p {
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+
+    #about-page a {
+      color: #6a0dad;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    #about-page a:hover {
+      text-decoration: underline;
+    }
+
+    /* RIGHT SIDE */
+    #about-page .skills-card {
+      flex: 1;
+      min-width: 250px;
+      background: #faf5ff;
+      padding: 20px;
+      border-left: 5px solid #6a0dad;
+      border-radius: 8px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    #about-page .skills-card h2 {
+      font-size: 24px;
+      color: #6a0dad;
+      margin-bottom: 20px;
+    }
+
+    #about-page .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    #about-page .skill-box {
+      background: #6a0dad;
+      color: #fff;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      #about-page .two-col {
+        flex-direction: column;
+      }
+
+      #about-page h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="about-page">
+    <div class="container">
+      <h1>ABOUT ME</h1>
+      <div class="underline"></div>
+
+      <div class="two-col">
+
+        <!-- LEFT SIDE -->
+        <div class="about-card">
+          <p>
+            Senior Software Engineer with <strong>17+ years of experience</strong> in AI/ML, Generative AI,
+            PLM, and CAD systems. Skilled in applying <strong>RAG, LangChain, LangGraph, Agentic AI</strong>
+            to deliver intelligent, enterprise-grade solutions.
+          </p>
+
+          <p>
+            Proficient in Python, C++, Java, Angular, and SQL, with a strong track record of building
+            AI-powered systems that improve quality and efficiency. Recognized as a strategic
+            problem-solver and mentor, combining deep technical expertise with stakeholder collaboration,
+            agile execution, and team leadership.
+          </p>
+
+          <p>
+            Feel free to connect or follow me on my
+            <a href="https://www.linkedin.com/in/amol-salunke/">LinkedIn</a> for useful content
+            related to programming.
+          </p>
+
+          <p>
+            I'm open to <strong>job opportunities</strong> where I can contribute, learn, and grow.
+            If you have a good opportunity that matches my skills and experience, don't hesitate to
+            <a href="https://www.linkedin.com/in/amol-salunke/">contact me</a>.
+          </p>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="skills-card">
+          <h2>My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-box">Python</div>
+            <div class="skill-box">C++</div>
+            <div class="skill-box">Java</div>
+            <div class="skill-box">Angular</div>
+            <div class="skill-box">SQL</div>
+            <div class="skill-box">RAG</div>
+            <div class="skill-box">LangChain</div>
+            <div class="skill-box">LangGraph</div>
+            <div class="skill-box">Agentic AI</div>
+            <div class="skill-box">PLM</div>
+            <div class="skill-box">CAD</div>
+            <div class="skill-box">AI/ML</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

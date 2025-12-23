@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <style>
+        /* Scope all styles under #home-page */
+        #home-page {
+            font-family: Arial, sans-serif;
+            background: #e5e5e5;
+            color: #222;
+        }
+
+        #home-page .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        #home-page h1 {
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            color: #6a0dad;
+            letter-spacing: 2px;
+        }
+
+        #home-page .underline {
+            width: 60px;
+            height: 4px;
+            background: #6a0dad;
+            margin: 10px auto 30px;
+            border-radius: 4px;
+        }
+
+        #home-page .about-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        #home-page .about-card {
+            padding: 20px;
+            background: #faf5ff;
+            border-left: 5px solid #6a0dad;
+            border-radius: 8px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        #home-page .about-card ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        #home-page .highlight {
+            font-weight: 700;
+            color: #6a0dad;
+        }
+
+        @media (max-width: 600px) {
+            #home-page h1 {
+                font-size: 32px;
+            }
+
+            #home-page .about-card ul {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home-page">
+        <div class="container">
+            <h1>HEY, I'M AMOL SALUNKE</h1>
+            <div class="underline"></div>
+
+            <div class="about-section">
+                <div class="about-card">
+                    <ul>
+                        <li>A Result-Oriented Software Engineer building and managing applications that contribute to
+                            the
+                            success of the overall product.</li>
+                        <li>Completed a <span class="highlight">B.Tech from COEP</span> and an
+                            <span class="highlight">M.S. from BITS</span>.
+                        </li>
+                        <li>Specialized in <span class="highlight">GenAI, Agentic AI, and enterprise product
+                                development</span>.</li>
+                        <li>Expertise in <span class="highlight">C++, C#, HTML5, Angular, AWS, SAFe Agile, PLM,
+                                CAD</span>.</li>
+                        <li>Deep experience with <span class="highlight">Teamcenter ecosystem</span> including
+                            <span class="highlight">Active Workspace, BMIDE, ITK, SOA</span>.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

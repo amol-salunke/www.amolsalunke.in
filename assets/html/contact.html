@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <style>
+        /* Scope all styles under #contact-page to prevent affecting other pages */
+        #contact-page {
+            font-family: Arial, sans-serif;
+            background: #e5e5e5 !important;
+            color: #222;
+        }
+
+        #contact-page .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        #contact-page h1 {
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            color: #6a0dad;
+            letter-spacing: 2px;
+        }
+
+        #contact-page .underline {
+            width: 60px;
+            height: 4px;
+            background: #6a0dad;
+            margin: 10px auto 30px;
+            border-radius: 4px;
+        }
+
+        #contact-page .contact-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        #contact-page .info-block {
+            flex: 1;
+            min-width: 280px;
+            padding: 20px;
+            background: #faf5ff;
+            border-left: 5px solid #6a0dad;
+            border-radius: 8px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        #contact-page .info-block h2 {
+            color: #6a0dad;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        #contact-page .info-block p {
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 6px 0;
+        }
+
+        #contact-page .label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        @media (max-width: 600px) {
+            #contact-page h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contact-page">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="underline"></div>
+
+            <div class="contact-section">
+
+                <div class="info-block">
+                    <h2>Name</h2>
+                    <p>Amol Balasaheb Salunke</p>
+                </div>
+
+                <div class="info-block">
+                    <h2>Address</h2>
+                    <p>
+                        At Wakad, Dist: Pune,<br>
+                        Maharashtra, India - 411057
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h2>Contact Details</h2>
+                    <p><span class="label">Mobile:</span> +91 9270447951</p>
+                    <p><span class="label">Email:</span> salunkecoep@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+ABOUT ME
+Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+
+Get to know me!
+
+Senior Software Engineer with 17+ years of experience in AI/ML, Generative AI, PLM, and CAD systems. Skilled in applying RAG, LangChain, LangGraph, and Agentic AI to deliver intelligent, enterprise-grade solutions. Proficient in Python, C++, Java, Angular, and SQL, with a strong track record of building AI-powered systems that improve quality and efficiency. Recognized as a strategic problem-solver and mentor, combining deep technical expertise with stakeholder collaboration, agile execution, and team leadership to deliver scalable, high-impact solutions in complex engineering and manufacturing environments.
+
+Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming
+
+I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+
+Skills Summary
+•	Programming: Python, C++11/14/17/20/23, C#, Java, SQL, Perl
+•	AI/ML & Generative AI: LLMs, LangChain, LangGraph, AWS Bedrock, RAG, Semantic Search, Prompt Engineering, Deep Learning
+•	Web & UI: Angular 2+, TypeScript, HTML5, CSS
+•	CAD/PLM: Teamcenter (tc13, tc14, tc2312, tc2406, tc2412, tc2506, tc2512), Active Workspace (aw6.1, aw6.2, aw6.3), NX Integration, BMIDE, ITK, SOA
+•	Databases: SQL Server, Oracle, NoSQL
+•	Tools & Design: GitHub, Visual Studio, UML, StarUML, Visio
+•	Soft Skills: Solution Architecture, Agile Delivery, Team Leadership, Business Analysis, Stakeholder Collaboration
+
+
+PROJECTS
+Here you will find some of the personal and clients projects that I created with each project containing its own case study
+
+
+•	AI-Driven Agentic Inspection Planning System
+o	Developed an AI-powered intelligent inspection planning solution leveraging Agentic AI, LangChain, Retrieval-Augmented Generation (RAG), and vector databases. The system employed autonomous AI agents to predict early defects, optimize inspection strategies, and reduce manual decision-making, resulting in faster, more accurate, and cost-efficient inspection planning.
+
+•	AI-Powered Quality Planning Assistant
+o	Designed and implemented an AI-driven assistant leveraging Agentic AI, LangGraph, Retrieval-Augmented Generation (RAG), and vector databases to automate the creation of Control Plans and optimize inspection planning. The system enabled context-based plan generation, reducing manual effort, ensuring process consistency, and accelerating quality documentation.
+
+•	AI-Powered Root Cause Analysis Automation
+o	Developed an AI agent–driven solution to automate root cause analysis using the 5 Whys problem-solving methodology. Leveraged LangChain, LangGraph, and RAG over historical system and operational data to enable intelligent reasoning, context-aware questioning, and accurate identification of underlying issues.
+
+•	Control Plan & Inspection Plan (CP&IP) with NX Integration
+o	Developed the Control Plan and Inspection Plan (CP&IP) module in Teamcenter, enabling comprehensive inspection planning. This solution was integrated with Failure Mode and Effects Analysis (FMEA) to prevent production defects early in product manufacturing, significantly reducing quality costs. The control plan was implemented across the production lifecycle, serving as the foundation for creating inspection plans and inspection operations in downstream manufacturing processes.
+o	Control Plan and Inspection Plan (CP&IP) module integrated with NX CAD application for seamless inspection planning through digital thread.
+o	Integrated a third-party BCT viewer with NX in Active Workspace to import PMIs from 2D/3D parts, eliminating manual data transfer, reducing errors, and accelerating design-to-manufacturing workflows.
+o	Developed a generic framework to generate Control Plan structures directly from FMEA, streamlining inspection planning, improving standardization, and reducing manual effort.
+o	Applied AI/ML (LangChain, RAG, Vector Databases) for early defect prediction and intelligent inspection planning.
+
+
+•	Failure Modes and Effects Analysis (FMEA)
+o	Developed Failure Modes and Effects Analysis (FMEA) module within Teamcenter PLM, enabling proactive risk identification and mitigation across manufacturing and engineering processes.
+o	Collaborated with business stakeholders and QA teams to define requirements, conduct design reviews, and align solutions with quality standards.
+o	Developed a generic framework to generate Variant FMEA structures from Master FMEA, enabling knowledge reuse, ensuring consistency across product lines, and reducing analysis effort
+
+
+•	ShoeMaker (CAD Domain)
+o	Designed and developed multiple 3D footwear design tools (Grouping, Pipe, Lacing, Sole, Image Tiling & Merging, Attribute Transfer) from scratch within Delcam ShoeMaker, enabling faster, more flexible shoe design and improving product usability.
+o	Built advanced CAD features such as 3D stencil wrapping, style line sketching, material texture mapping, and automated lacing, enhancing design accuracy.
+o	Led requirements analysis, SRS preparation, estimation, and GUI design, ensuring features aligned with customer expectations.
+o	Collaborated on end-to-end development lifecycle (design, implementation, unit testing, release), ensuring projects were delivered on time and met performance and maintainability standards.
+
+CONTACT ME
+AMOL BALASAHEB SALUNKE
+AT. WAKAD, DIST: PUNE,
+MAHARASHTRA,INDIA-411057
+
+Mobile No. 9270447951
+Email:salunkecoep@gmail.com
+
